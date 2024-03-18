@@ -1,0 +1,66 @@
+.cor-google{
+    color: #003B71;
+    font-weight: bold;
+}
+
+.cor-google2{
+    color: #CA1C2A;
+    font-weight: bold;
+}
+  
+       /* Adicione estilos personalizados aqui, se necessÃĄrio */
+       body {
+        transition: background-color 0.5s, color 0.5s;
+    }
+  
+    body.dark-mode {
+        background-color: #333;
+        color: #fff;
+    }
+  
+    /* Estilo do botÃĢo de alternÃĒncia */
+    #darkModeToggleBtn {
+        transition: transform 0.3s ease-in-out;
+    }
+  
+    #darkModeToggleBtn.dark-mode-on {
+        transform: rotate(180deg);
+    }
+
+    body.dark-mode .div4 .div3 .div2 .div1 section form-check{
+        background-color: #333;
+        color: #fff;
+    }
+
+    body.dark-mode h3{
+        background-color: #333;
+        color: #fff;
+    }
+
+    body.dark-mode #h5{
+        background-color: #333;
+        color: #fff;
+    }
+
+    body.dark-mode p{
+        background-color: #333;
+        color: #fff;
+    }
+
+    body.dark-mode .li{
+        background-color: #333;
+        color: #fff;
+    }
+
+    h5{
+        text-size-adjust: larger;
+    }
+
+    h1{
+        margin-right: 20px  ;
+
+    }
+
+    #p98{
+        font-size: 70px;
+    }

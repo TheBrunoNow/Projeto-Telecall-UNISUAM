@@ -1,0 +1,84 @@
+.cor-2fa{
+    color: #003B71;
+    font-weight: bold;
+}
+
+.cor-2fa-2{
+    color: #CA1C2A;
+    font-weight: bold;
+}
+  
+       /* Adicione estilos personalizados aqui, se necessÃĄrio */
+       body {
+        transition: background-color 0.5s, color 0.5s;
+    }
+  
+    body.dark-mode {
+        background-color: #333;
+        color: #fff;
+    }
+  
+    /* Estilo do botÃĢo de alternÃĒncia */
+    #darkModeToggleBtn {
+        transition: transform 0.3s ease-in-out;
+    }
+  
+    #darkModeToggleBtn.dark-mode-on {
+        transform: rotate(180deg);
+    }
+
+    body.dark-mode .div4 .div3 .div2 .div1 section form-check{
+        background-color: #333;
+        color: #fff;
+    }
+
+    body.dark-mode h3{
+        background-color: #333;
+        color: #fff;
+    }
+
+    body.dark-mode #h5{
+        background-color: #333;
+        color: #fff;
+    }
+
+    body.dark-mode p{
+        background-color: #333;
+        color: #fff;
+    }
+
+    body.dark-mode .li{
+        background-color: #333;
+        color: #fff;
+    }
+
+    h5{
+        text-size-adjust: larger;
+    }
+
+    
+    body.dark-mode #img1{
+        border-radius: 20px;
+        background-color: #e6e0e0;
+      padding: 1%;
+        
+        ;}
+
+        body.dark-mode #img2{
+            border-radius: 100px;
+            background-color: #e6e0e0;
+          padding: 1%;
+            
+            ;}
+
+    body.dark-mode #img3{
+    border-radius: 10%;
+    background-color: #e6e0e0;
+    padding: 1%;
+    ;}
+
+    body.dark-mode #img4{
+        border-radius: 20px;
+        background-color: #e6e0e0;
+      padding: 1%;
+    }    

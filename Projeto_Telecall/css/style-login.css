@@ -1,0 +1,97 @@
+
+.menu_cor{
+    background-color: #CA1C2A
+}
+
+.fundo_menu a:hover{
+    background-color: #55070e;
+    border-radius: 3px;
+}
+
+.fundo_submenu a:hover{
+    background-color: #cac9c9;
+    border-radius: 3px;
+}
+
+.retira_link{
+    text-decoration: none; /* Retira a linha do link*/
+
+}
+
+.espaco{
+    padding-right:  30px;
+}
+
+.alogin a:hover{
+    background-color: #55070e;
+    border-radius: 3px;   
+}
+
+.letramaior{
+    color: #003B71;
+    font-weight: bold;
+}
+
+.img-text-mapa {
+    position: relative;
+    top: 50px;
+    left: 0px;
+  }
+
+  .letra-cor{
+    color: #003B71;
+    font-weight: bold;
+
+  }
+
+  
+       /* Adicione estilos personalizados aqui, se necessÃĄrio */
+       body {
+        transition: background-color 0.5s, color 0.5s;
+    }
+  
+    body.dark-mode {
+        background-color: #333;
+        color: #fff;
+    }
+  
+    /* Estilo do botÃĢo de alternÃĒncia */
+    #darkModeToggleBtn {
+        transition: transform 0.3s ease-in-out;
+    }
+  
+    #darkModeToggleBtn.dark-mode-on {
+        transform: rotate(180deg);
+    }
+
+    body.dark-mode .div4 .div3 .div2 .div1 section form-check{
+        background-color: #333;
+        color: #fff;
+    }
+
+    h5{
+        text-size-adjust: larger;
+    }
+
+    /*ALTERAR TAMANHO DA FONTE*/
+
+      /* Adicione estilos personalizados aqui, se necessário */
+      body{
+        font-size: 16px; /* Tamanho inicial da fonte */
+        transition: font-size 0.3s ease-in-out;
+    }
+
+    body.dark-mode input:focus {
+        border-color: #fff; /* Cor da borda ao focar */
+        box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.836); /* Sombra ao focar */
+    }
+
+#mostras{
+    padding-right: 220px;
+
+}
+
+
+#boxlogin{
+    border-radius:10px ;
+}

@@ -1,0 +1,163 @@
+
+.menu_cor{
+    background-color: #CA1C2A
+}
+
+.fundo_menu a:hover{
+    background-color: #55070e;
+    border-radius: 3px;
+}
+
+.fundo_submenu a:hover{
+    background-color: #cac9c9;
+    border-radius: 3px;
+}
+
+.retira_link{
+    text-decoration: none; /* Retira a linha do link*/
+
+}
+
+.espaco{
+    padding-right:  30px;
+}
+
+.alogin a:hover{
+    background-color: #55070e;
+    border-radius: 3px;   
+}
+
+.letramaior{
+    color: #003B71;
+    font-weight: bold;
+}
+
+.img-text-mapa {
+    position: relative;
+    top: 50px;
+    left: 0px;
+  }
+
+  .letra-cor{
+    color: #003B71;
+    font-weight: bold;
+
+  }
+
+
+  .menu_cor{
+    background-color: #CA1C2A
+  }
+  .fundo_menu a:hover{
+    background-color: #55070e;
+    border-radius: 3px;
+  }
+  
+  .retira_link{
+    text-decoration: none; /* Retira a linha do link*/
+  
+  }
+  
+  #logo{
+    
+    height: 50px; /* Altura da Imagem*/
+    padding-right: 30px;
+  
+  } 
+  
+
+  
+       /* Adicione estilos personalizados aqui, se necessÃĄrio */
+       body {
+        transition: background-color 0.5s, color 0.5s;
+    }
+  
+    body.dark-mode {
+        background-color: #333;
+        color: #fff;
+    }
+  
+    /* Estilo do botÃĢo de alternÃĒncia */
+    #darkModeToggleBtn {
+        transition: transform 0.3s ease-in-out;
+    }
+  
+    #darkModeToggleBtn.dark-mode-on {
+        transform: rotate(180deg);
+    }
+
+    body.dark-mode .div4 .div3 .div2 .div1 section {
+        background-color: #333;
+        color: #fff;
+    }
+
+    body.dark-mode small {
+      background-color: #333;
+      color: #fff;}
+
+  /*TIRAR SELETOR DO CPF*/
+
+  #cpf[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+#cpf[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+#cep[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+#cep[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+#telefoneCelular[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+#telefoneCelular[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+
+}
+
+#telefoneFixo[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+#telefoneFixo[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+
+}
+
+/*ALTERAR TAMANHO DA FONTE*/
+
+      /* Adicione estilos personalizados aqui, se necessário */
+      body{
+        font-size: 16px; /* Tamanho inicial da fonte */
+        transition: font-size 0.3s ease-in-out;
+    }
+
+  
+    /* Oculta o ícone de calendário nos campos de data */
+    input[type="date"]::-webkit-calendar-picker-indicator {
+      display: none;
+  }
+
+    
+#boxcadastro{
+  border-radius:10px ;
+}
+
+body.dark-mode #logocad{
+  border-radius: 20px;
+  background-color: #e6e0e0;
+padding: 1%;
+}    
